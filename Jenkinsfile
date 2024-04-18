@@ -11,7 +11,7 @@ maven'Maven 9.6'
 			post{
 success{
 echo"Achiving the Artifacts"
-achiveArtifacts artifacts: '**/*.war
+achiveArtifacts artifacts: '**/*.war'
                  }
 }
 }
